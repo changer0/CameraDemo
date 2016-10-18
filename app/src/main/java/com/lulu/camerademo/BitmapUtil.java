@@ -41,7 +41,7 @@ public final class BitmapUtil {
                     // image/jpeg
                     if (type.endsWith("png")) {
                         options.inPreferredConfig = Bitmap.Config.ARGB_4444;
-                    } else if (type.endsWith("png")) {
+                    } else if (type.endsWith("jpeg")) {
                         options.inPreferredConfig = Bitmap.Config.RGB_565;
                     }
 
