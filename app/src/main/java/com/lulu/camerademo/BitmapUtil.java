@@ -67,7 +67,6 @@ public final class BitmapUtil {
                 inSampleSize *= 2;
             }
         }
-
         return inSampleSize;
     }
 
